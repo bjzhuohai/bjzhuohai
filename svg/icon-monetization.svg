@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" aria-label="Monetization Icon">
+  <circle cx="32" cy="32" r="26" fill="#dff0ff" stroke="#005db8" stroke-width="4" />
+  <path d="M32 18v28" stroke="#005db8" stroke-width="4" stroke-linecap="round" />
+  <path d="M24 24h16v16H24" stroke="#005db8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

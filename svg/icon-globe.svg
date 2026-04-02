@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" aria-label="Global Icon">
+  <circle cx="32" cy="32" r="26" fill="#e8f3ff" stroke="#005db8" stroke-width="4" />
+  <path d="M16 32h32" stroke="#005db8" stroke-width="3" />
+  <path d="M32 8c7 0 13 10 13 24s-6 24-13 24-13-10-13-24 6-24 13-24z" stroke="#005db8" stroke-width="3" />
+  <path d="M24 18c4 2 8 3 16 0" stroke="#005db8" stroke-width="3" />
+  <path d="M24 46c4-2 8-3 16 0" stroke="#005db8" stroke-width="3" />
+</svg>

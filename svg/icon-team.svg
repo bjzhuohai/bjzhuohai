@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" aria-label="Team Icon">
+  <circle cx="21" cy="22" r="7" stroke="#005db8" stroke-width="3" fill="#dff0ff" />
+  <circle cx="43" cy="22" r="7" stroke="#005db8" stroke-width="3" fill="#dff0ff" />
+  <path d="M14 37c0-4 3.58-7.25 8-7.25s8 3.25 8 7.25v6h-16v-6z" fill="#dff0ff" stroke="#005db8" stroke-width="3" />
+  <path d="M35 37c0-4 3.58-7.25 8-7.25s8 3.25 8 7.25v6h-16v-6z" fill="#dff0ff" stroke="#005db8" stroke-width="3" />
+</svg>
