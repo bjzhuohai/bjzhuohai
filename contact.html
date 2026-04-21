@@ -3,15 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact | Beijing Zhuohai Wenyi Technology</title>
-  <meta name="description" content="Get in touch with Beijing Zhuohai Wenyi Technology for global app and game collaboration, support, and business inquiries.">
+  <title>Contact Us | Beijing Zhuohai Wenyi Technology</title>
+  <meta name="description" content="Get in touch with Beijing Zhuohai Wenyi Technology for global app and game collaboration, technical support, and business inquiries.">
+
+  <!-- SEO & Social Media -->
+  <link rel="canonical" href="https://bjzhuohai.com/contact.html" />
+  <meta property="og:title" content="Contact Us | Beijing Zhuohai Wenyi Technology" />
+  <meta property="og:description" content="Get in touch for global mobile app and game collaboration. Business inquiries and technical support." />
+  <meta property="og:url" content="https://bjzhuohai.com/contact.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://bjzhuohai.com/img/og-contact.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
   <link rel="stylesheet" href="css/style.css" />
   <script defer src="js/main.js"></script>
 </head>
 <body>
   <header>
     <div class="container nav-wrap">
-      <a href="index.html" class="site-brand"><img src="svg/logo.svg" alt="Logo" /><span>Beijing Zhuohai Wenyi</span></a>
+      <a href="index.html" class="site-brand">
+        <img src="svg/logo.svg" alt="Logo" />
+        <span>Zhuohai Wenyi</span>
+      </a>
       <nav class="nav-links">
         <a href="index.html">Home</a>
         <a href="services.html">Services</a>
@@ -23,31 +36,171 @@
     </div>
   </header>
 
-  <main class="container section">
-    <h2>Contact Us</h2>
-    <p class="subtitle">We are ready for your global mobile application and game cooperation.</p>
+  <main>
+    <section class="hero" style="padding: 60px 0;">
+      <div class="container">
+        <h1>Connect with Our Experts</h1>
+        <p>Whether you're looking for global distribution, custom development, or technical support, our team is here to help you navigate the international mobile market.</p>
+      </div>
+    </section>
 
-    <article class="card">
-      <h3>Business Contact</h3>
-      <p>Email: <a href="mailto:zhanghaiwu@bjzhuohai.com">zhanghaiwu@bjzhuohai.com</a></p>
-    </article>
+    <section class="section">
+      <div class="container">
+        <div class="contact-grid">
+          <!-- Contact Info -->
+          <div class="contact-sidebar">
+            <div class="section-header" style="text-align: left;">
+              <h2>Contact Information</h2>
+              <p>Reach out through our specialized channels for faster response.</p>
+            </div>
+            <ul class="contact-info-list">
+              <li>
+                <div class="info-icon"><img src="svg/icon-services.svg" width="24" height="24" /></div>
+                <div>
+                  <h4>Business Partnerships</h4>
+                  <p>Inquiries about global operations and publishing.</p>
+                  <a href="mailto:zhanghaiwu@bjzhuohai.com">zhanghaiwu@bjzhuohai.com</a>
+                </div>
+              </li>
+              <li>
+                <div class="info-icon"><img src="svg/icon-contact.svg" width="24" height="24" /></div>
+                <div>
+                  <h4>Technical Support</h4>
+                  <p>Support for existing users and developer integration.</p>
+                  <a href="mailto:support@bjzhuohai.com">support@bjzhuohai.com</a>
+                </div>
+              </li>
+              <li>
+                <div class="info-icon"><img src="svg/icon-globe.svg" width="24" height="24" /></div>
+                <div>
+                  <h4>Headquarters</h4>
+                  <p>No.206-034, No.7, Juyuan W. Road, Mapo Town, Shunyi District, Beijing, China</p>
+                  <p>Hours: Mon - Fri, 9:00 - 18:00 (GMT+8)</p>
+                </div>
+              </li>
+            </ul>
+          </div>
 
-    <article class="card" style="margin-top:1rem;">
-      <h3><img src="svg/icon-contact.svg" alt="Technical Support" width="24" height="24" style="vertical-align:middle;margin-right:8px;" /> Technical Support</h3>
-      <p>Email: <a href="mailto:support@bjzhuohai.com">support@bjzhuohai.com</a></p>
-      <p>Address: No.206-034, No.7, Juyuan W. Road, Mapo Town, Shunyi District, Beijing, 100000 China</p>
-      <p>Website: <a href="https://bjzhuohai.com" target="_blank" rel="noopener">bjzhuohai.com</a></p>
-    </article>
+          <!-- Contact Form -->
+          <div class="card">
+            <h3>Send a Message</h3>
+            <p style="margin-bottom: 2rem;">Fill out the form below and our team will get back to you within 24 hours.</p>
+            <form id="contact-form">
+              <div class="grid grid-2" style="gap: 1rem;">
+                <div class="form-group">
+                  <label for="first-name">First Name</label>
+                  <input type="text" id="first-name" class="form-control" placeholder="John" required>
+                </div>
+                <div class="form-group">
+                  <label for="last-name">Last Name</label>
+                  <input type="text" id="last-name" class="form-control" placeholder="Doe" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Work Email</label>
+                <input type="email" id="email" class="form-control" placeholder="john@company.com" required>
+              </div>
+              <div class="form-group">
+                <label for="inquiry">Inquiry Type</label>
+                <select id="inquiry" class="form-control">
+                  <option value="operation">Global Operations</option>
+                  <option value="development">App Development</option>
+                  <option value="monetization">Monetization Strategy</option>
+                  <option value="other">General Inquiry</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" rows="5" class="form-control" placeholder="How can we help you?"></textarea>
+              </div>
+              <button type="submit" class="btn-primary" style="width: 100%;">Submit Inquiry</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- FAQ Section -->
+    <section class="section" style="background: var(--bg-light);">
+      <div class="container">
+        <div class="section-header">
+          <h2>Frequently Asked Questions</h2>
+          <p class="subtitle">Quick answers to common inquiries about our services and process.</p>
+        </div>
+        <div class="grid grid-2">
+          <div class="faq-item">
+            <div class="faq-question">
+              <img src="svg/icon-app.svg" width="20" height="20" />
+              What regions do you specialize in?
+            </div>
+            <p>While we operate globally, we have particularly strong distribution networks in North America, Southeast Asia, and Europe.</p>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <img src="svg/icon-team.svg" width="20" height="20" />
+              How long does a typical integration take?
+            </div>
+            <p>For operations outsourcing, we can usually go live within 2-4 weeks. Custom R&D projects depend on complexity.</p>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <img src="svg/icon-monetization.svg" width="20" height="20" />
+              Which monetization models do you support?
+            </div>
+            <p>We support all major models including Subscription (IAP), Ad Mediation, and tiered VIP memberships.</p>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <img src="svg/icon-privacy.svg" width="20" height="20" />
+              Is my app data secure and compliant?
+            </div>
+            <p>Absolutely. Compliance with GDPR, CCPA, and platform-specific privacy policies is at the core of our technical architecture.</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>
-    <div class="container footer-grid">
-      <div><strong>Beijing Zhuohai Wenyi Technology</strong><p class="small">Global mobile app and game operation</p></div>
-      <div><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></div>
-      <div><a href="index.html">Home</a><a href="services.html">Services</a><a href="team.html">Team</a></div>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="site-brand footer-logo" style="color: white;">
+            <img src="svg/logo.svg" alt="Logo" style="filter: brightness(0) invert(1);" />
+            <span>Zhuohai Wenyi</span>
+          </a>
+          <p>Global mobile application success partner. Experts in R&D, operations, and monetization.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="team.html">Our Team</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul class="footer-links-list">
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="app-ads.txt">App-Ads.txt</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul class="footer-links-list">
+            <li>Email: zhanghaiwu@bjzhuohai.com</li>
+            <li>Support: support@bjzhuohai.com</li>
+            <li>Location: Beijing, China</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Beijing Zhuohai Wenyi Technology Co., Ltd. All rights reserved.</p>
+      </div>
     </div>
-    <p class="legal">© 2026 Beijing Zhuohai Wenyi Technology Co., Ltd. All rights reserved.</p>
   </footer>
 </body>
 </html>

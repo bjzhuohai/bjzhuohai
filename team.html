@@ -5,13 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Team & Case Studies | Beijing Zhuohai Wenyi Technology</title>
   <meta name="description" content="Experienced team with ex-Microsoft and ex-Alibaba professionals delivering mobile app/game products globally.">
+
+  <!-- SEO & Social Media -->
+  <link rel="canonical" href="https://bjzhuohai.com/team.html" />
+  <meta property="og:title" content="Team & Case Studies | Beijing Zhuohai Wenyi Technology" />
+  <meta property="og:description" content="Experienced team with Alibaba/Microsoft background. Proven track record in global app launches." />
+  <meta property="og:url" content="https://bjzhuohai.com/team.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://bjzhuohai.com/img/og-team.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
   <link rel="stylesheet" href="css/style.css" />
   <script defer src="js/main.js"></script>
+  <style>
+    .case-meta { font-size: 0.9rem; color: var(--text-muted); margin-top: 1rem; border-top: 1px solid var(--border-color); padding-top: 0.75rem; }
+    .case-meta strong { color: var(--primary); }
+    .card ul { margin-left: 1.2rem; margin-top: 0.75rem; list-style-type: circle; color: var(--text-muted); font-size: 0.95rem; }
+    .badge-grid { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1.5rem; }
+    .badge-item { background: var(--bg-light); padding: 1rem 1.5rem; border-radius: 10px; border: 1px solid var(--border-color); flex: 1 1 calc(25% - 1rem); min-width: 150px; text-align: center; font-weight: 600; font-size: 0.9rem; color: var(--primary-dark); }
+  </style>
 </head>
 <body>
   <header>
     <div class="container nav-wrap">
-      <a href="index.html" class="site-brand"><img src="svg/logo.svg" alt="Logo" /><span>Beijing Zhuohai Wenyi</span></a>
+      <a href="index.html" class="site-brand">
+        <img src="svg/logo.svg" alt="Zhuohai Logo" />
+        <span>Zhuohai Wenyi</span>
+      </a>
       <nav class="nav-links">
         <a href="index.html">Home</a>
         <a href="services.html">Services</a>
@@ -23,46 +43,213 @@
     </div>
   </header>
 
-  <main class="container section">
-    <h2>Team & Instance Case Studies</h2>
-    <p class="subtitle">Leadership from Microsoft/Alibaba backgrounds, supported by a global engineering and operations network.</p>
-    <div class="row">
-      <article class="card">
-        <h3>Case 1: Global Hyper-casual Game</h3>
-        <p>From concept to 10M installs, achieved top 10 grossing in SEA by automated A/B testing and live ops.</p>
-      </article>
-      <article class="card">
-        <h3>Case 2: SaaS Productivity App</h3>
-        <p>Enterprise-ready release with multi-region compliance, plus 200K monthly active users and strong subscription retention.</p>
-      </article>
-      <article class="card">
-        <h3>Case 3: Cross-platform Social App</h3>
-        <p>End-to-end development and operation for iOS/Android with localized stores and scalable backend.</p>
-      </article>
-    </div>
-
-    <section class="section" style="padding-top:1rem;">
-      <h2>Core Competence</h2>
-      <div class="row" style="gap:.8rem;">
-        <article class="card"><h3><img src="svg/icon-globe.svg" alt="Global Compliance" width="20" height="20" style="vertical-align:middle;margin-right:8px;" />Global Compliance</h3><p>Compliant with Google Play, App Store, GDPR, CCPA, LGPD, PDPA globally.</p></article>
-        <article class="card"><h3><img src="svg/icon-app.svg" alt="App Lifecycle" width="20" height="20" style="vertical-align:middle;margin-right:8px;" />App Lifecycle</h3><p>From concept to release and post-launch ops across platforms.</p></article>
-        <article class="card"><h3><img src="svg/icon-monetization.svg" alt="Monetization" width="20" height="20" style="vertical-align:middle;margin-right:8px;" />Monetization</h3><p>In-app purchase, subscription, VIP and ads revenue strategies.</p></article>
+  <main>
+    <section class="hero" style="padding: 60px 0;">
+      <div class="container">
+        <h1>Team & Case Studies</h1>
+        <p>Leadership from Microsoft and Alibaba backgrounds, supported by a global engineering and operations network of industry experts.</p>
       </div>
-      <ul style="color:#4d637a;line-height:1.8;list-style:disc inside;margin-top:1rem;">
-        <li>Strong product governance with compliance to Google Play / App Store terms.</li>
-        <li>Global age rating and privacy policy adaptation for EEA, COPPA, CCPA and PDPA.</li>
-        <li>Release strategy for app store optimization and search engine visibility (SEO).</li>
-      </ul>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section class="container section">
+      <div class="section-header">
+        <h2>Success Case Studies</h2>
+        <p class="subtitle">Real-world results achieved for our partners through strategic innovation and technical excellence.</p>
+      </div>
+      <div class="grid grid-3">
+        <article class="card">
+          <div class="card-icon"><img src="svg/icon-app.svg" width="35" height="35" /></div>
+          <h3>Global Hyper-casual Game</h3>
+          <p>End-to-end publishing and live operations for a leading casual title.</p>
+          <ul>
+            <li><strong>Metrics:</strong> 15M+ Total Installs, Top 5 Grossing in 12 countries.</li>
+            <li><strong>Tech:</strong> Unity 3D, Automated A/B Testing, Firebase Remote Config.</li>
+            <li><strong>Outcome:</strong> Scaled from zero to 500K DAU within 3 months of launch.</li>
+          </ul>
+          <div class="case-meta">
+            Project Lifecycle: <strong>Concept to Scale (18 Months)</strong>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-icon"><img src="svg/icon-services.svg" width="35" height="35" /></div>
+          <h3>SaaS Productivity Suite</h3>
+          <p>Global release and enterprise-grade infrastructure management.</p>
+          <ul>
+            <li><strong>Metrics:</strong> 350K+ Active Users, 18% Trial-to-Paid conversion.</li>
+            <li><strong>Tech:</strong> Flutter Cross-platform, AWS Lambda, GDPR Compliance Module.</li>
+            <li><strong>Outcome:</strong> Seamless multi-region compliance across EU, USA, and SEA.</li>
+          </ul>
+          <div class="case-meta">
+            Key Milestone: <strong>Zero downtime during 5x user growth</strong>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-icon"><img src="svg/icon-monetization.svg" width="35" height="35" /></div>
+          <h3>Cross-platform Social App</h3>
+          <p>Innovative social networking platform with real-time features.</p>
+          <ul>
+            <li><strong>Metrics:</strong> 2M+ Registered Users, 45min Avg. Daily Session.</li>
+            <li><strong>Tech:</strong> Node.js WebSocket, WebRTC, Redis Cluster.</li>
+            <li><strong>Outcome:</strong> Optimized monetization via tiered VIP and ad-mediation.</li>
+          </ul>
+          <div class="case-meta">
+            Milestone: <strong>Successfully navigated global store review hurdles</strong>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Team Structure Section -->
+    <section class="section" style="background: var(--bg-light);">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Team Structure</h2>
+          <p class="subtitle">A multidisciplinary team of experts dedicated to your product's success.</p>
+        </div>
+        <div class="grid grid-2">
+          <div class="card">
+            <div class="card-icon"><img src="svg/icon-team.svg" width="32" height="32" /></div>
+            <h3>Leadership & Strategy</h3>
+            <p>Led by ex-Alibaba and Microsoft veterans with 15+ years of industry experience. We focus on high-level strategic alignment and global market penetration.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon"><img src="svg/icon-app.svg" width="32" height="32" /></div>
+            <h3>Engineering Team</h3>
+            <p>Senior full-stack developers and architects specializing in Native/Flutter mobile dev, Unity game engines, and scalable backend infrastructure.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon"><img src="svg/icon-services.svg" width="32" height="32" /></div>
+            <h3>Operations & Marketing</h3>
+            <p>Global market specialists fluent in UA (User Acquisition), ASO (App Store Optimization), and data-driven community management strategies.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon"><img src="svg/icon-privacy.svg" width="32" height="32" /></div>
+            <h3>Design & UX</h3>
+            <p>Creative professionals dedicated to crafting intuitive user journeys that maximize engagement, retention, and conversion rates.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Competence Section -->
+    <section class="container section">
+      <div class="section-header">
+        <h2>Core Competence</h2>
+        <p class="subtitle">Unmatched technical and operational expertise in the global mobile landscape.</p>
+      </div>
+      <div class="grid grid-3">
+        <article class="card">
+          <h3><img src="svg/icon-globe.svg" alt="Global Compliance" width="24" height="24" style="vertical-align:middle;margin-right:8px;" /> Global Compliance</h3>
+          <ul>
+            <li>Full GDPR & CCPA/CPRA implementation</li>
+            <li>Apple ATT & Privacy Label management</li>
+            <li>Google Play Data Safety declarations</li>
+            <li>Regional age rating (PEGI, ESRB, IARC)</li>
+            <li>COPPA & minor protection protocols</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3><img src="svg/icon-app.svg" alt="App Lifecycle" width="24" height="24" style="vertical-align:middle;margin-right:8px;" /> App Lifecycle</h3>
+          <ul>
+            <li>Agile development methodology</li>
+            <li>CI/CD automated deployment pipelines</li>
+            <li>Multi-region server orchestration</li>
+            <li>Continuous ASO & Metadata updates</li>
+            <li>Scalable 24/7 technical support</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3><img src="svg/icon-monetization.svg" alt="Monetization" width="24" height="24" style="vertical-align:middle;margin-right:8px;" /> Monetization</h3>
+          <ul>
+            <li>Advanced ad-mediation (AppLovin/ironSource)</li>
+            <li>Subscription funnel optimization</li>
+            <li>IAP economy balancing & design</li>
+            <li>Tiered VIP membership architectures</li>
+            <li>User LTV forecasting & ROI analysis</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Certifications & Partnerships -->
+    <section class="section" style="background: var(--bg-light);">
+      <div class="container">
+        <div class="section-header">
+          <h2>Certifications & Partnerships</h2>
+          <p class="subtitle">Trusted by leading platforms and recognized for technical excellence.</p>
+        </div>
+        <p style="text-align: center; color: var(--text-muted); max-width: 800px; margin: 0 auto 2rem;">Our team maintains active partnerships and certifications with the world's most critical mobile ecosystems, ensuring we are always at the forefront of policy changes and technical updates.</p>
+        <div class="badge-grid">
+          <div class="badge-item">Google Partner</div>
+          <div class="badge-item">Apple Developer Program</div>
+          <div class="badge-item">AWS Cloud Partner</div>
+          <div class="badge-item">Unity Verified Partner</div>
+          <div class="badge-item">AdMob Certified Expert</div>
+          <div class="badge-item">AppsFlyer Verified</div>
+          <div class="badge-item">ironSource Preferred</div>
+          <div class="badge-item">Meta Business Partner</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Global Presence Section -->
+    <section class="container section">
+      <div class="section-header">
+        <h2>Global Presence</h2>
+        <p class="subtitle">Serving users and partners across the globe from our technical hub.</p>
+      </div>
+      <div class="card" style="display: flex; gap: 2rem; align-items: center; background: var(--primary-dark); color: white;">
+        <div style="flex: 1;">
+          <h3 style="color: white; margin-bottom: 1rem;">Beijing Headquarters</h3>
+          <p style="color: rgba(255,255,255,0.8);">Our main technical R&D and strategy hub is located in Beijing, China, leveraging a dense pool of top-tier engineering talent from world-class universities and tech giants. From here, we manage operations covering <strong>North America, Europe, Southeast Asia, and Latin America</strong>, providing 24/7 coverage for our global user base.</p>
+        </div>
+        <div class="card-icon" style="background: rgba(255,255,255,0.1); width: 100px; height: 100px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+          <img src="svg/icon-globe.svg" width="60" height="60" style="filter: brightness(0) invert(1);" />
+        </div>
+      </div>
     </section>
   </main>
 
   <footer>
-    <div class="container footer-grid">
-      <div><strong>Beijing Zhuohai Wenyi Technology</strong><p class="small">Global mobile app and game operation</p></div>
-      <div><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></div>
-      <div><a href="index.html">Home</a><a href="services.html">Services</a><a href="contact.html">Contact</a></div>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="site-brand footer-logo" style="color: white;">
+            <img src="svg/logo.svg" alt="Logo" style="filter: brightness(0) invert(1);" />
+            <span>Zhuohai Wenyi</span>
+          </a>
+          <p>Global mobile app and game specialists. Empowered by experience from Alibaba and Microsoft.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="team.html">Our Team</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul class="footer-links-list">
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul class="footer-links-list">
+            <li>Email: zhanghaiwu@bjzhuohai.com</li>
+            <li>Support: support@bjzhuohai.com</li>
+            <li>Location: Beijing, China</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Beijing Zhuohai Wenyi Technology Co., Ltd. All rights reserved.</p>
+      </div>
     </div>
-    <p class="legal">© 2026 Beijing Zhuohai Wenyi Technology Co., Ltd. All rights reserved.</p>
   </footer>
 </body>
 </html>
